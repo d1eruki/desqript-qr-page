@@ -2,7 +2,7 @@ name: Deploy Tailwind v4 (simple)
 
 on:
   push:
-    branches: [ main ]
+    branches: [main]
   workflow_dispatch:
 
 permissions:

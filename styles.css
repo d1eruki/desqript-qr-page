@@ -6,15 +6,14 @@
   --color-button-primary-background: hsla(199, 62%, 39%, 0.1);
   --color-button-secondary-outline: hsla(199, 62%, 39%, 0.25);
 
-  --text-h1: clamp(1.75rem, 4vw, 4.5rem);
-  --text-h2: clamp(1.5rem, 3vw, 4rem);
-  --text-paragraph: clamp(1.25rem, 1vw, 2rem);
-  --text-button: clamp(1rem, 1vw, 1.25rem);
+  --text-h1: clamp(1.75rem, 3vw, 4.5rem);
+  --text-h2: clamp(1.5rem, 2vw, 4rem);
+  --text-paragraph: clamp(1rem, 1.25vw, 2rem);
+  --text-button: clamp(0.75rem, 1vw, 1.25rem);
 }
 
 @layer base {
   * {
-    font-family: "Gilroy-Light", serif;
     font-size: var(--text-paragraph);
     text-wrap: balance;
     word-break: normal;
@@ -27,7 +26,7 @@ h1,
 h2,
 h3,
 h4 {
-  font-family: "Playfair Display", serif;
+  font-family: "Onest", serif;
   font-weight: 700;
 }
 
@@ -37,14 +36,6 @@ h1 {
 
 h2 {
   font-size: var(--text-h2);
-}
-
-@font-face {
-  font-family: "Gilroy-Light";
-  src: url("src/fonts/Gilroy-Light.otf") format("opentype");
-  font-weight: 400;
-  font-style: normal;
-  font-display: swap;
 }
 
 .btn {
