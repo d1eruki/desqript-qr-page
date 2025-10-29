@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <title>Title</title>
 
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -13,11 +14,41 @@
 
     <link rel="stylesheet" href="dist.css" />
   </head>
-  <body>
-  <div>
-      <h1 class="text-(--color-primary) text-7xl">Гидромодули АИЕ</h1>
-      <h2 class="text-(--color-secondary) text-7xl">Промышленные решения для систем холодоснабжения и отопления</h2>
+  <body lang="ru" id="app" class="m-48 gap-24 flex flex-col">
+    <div class="flex flex-wrap gap-2">
+      <div class="flex gap-2 flex-col grow">
+        <h1 class="text-(--color-primary) text-7xl">Гидромодули АИЕ</h1>
+        <p class="text-(--color-secondary)">
+          Промышленные решения для систем холодоснабжения и отопления
+        </p>
+      </div>
 
-  </div>
+      <img
+        class="grow"
+        src="  https://placehold.co/600x400"
+        alt="Image"
+      />
+    </div>
+    <div class="flex flex-col gap-2">
+        <div class="relative justify-items-center">
+            <h2 class="text-(--color-primary) text-4xl">
+                Внешний вид изделия
+            </h2>
+            <button class="btn-primary btn absolute right-0 top-0">
+                Дизайн
+            </button>
+        </div>
+        <div class="flex gap-2">
+            <button class="btn-secondary btn">
+                Паспорт PDF
+            </button>
+            <button class="btn-secondary btn">
+                Схемы принципиальные электрические PDF
+            </button>
+            <button class="btn-secondary btn">
+                Взрыв схемы PDF
+            </button>
+        </div>
+    </div>
   </body>
 </html>
