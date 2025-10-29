@@ -1,16 +1,14 @@
 @import "tailwindcss";
 
-.playfair-display-700 {
+@theme {
+  --color-primary: hsla(216, 75%, 19%, 1);
+  --color-secondary: hsla(199, 99%, 29%, 1);
+}
+
+h1,
+h2,
+h3,
+h4 {
   font-family: "Playfair Display", serif;
-  font-optical-sizing: auto;
   font-weight: 700;
-  font-style: normal;
-}
-
-:root {
-  --color-red: hsl(0, 100%, 50%);
-}
-
-.red-text {
-  color: var(--color-red);
 }
